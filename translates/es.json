@@ -1,0 +1,357 @@
+{
+  "ui": {
+    "subtitulo": "Matcha · Té · Onigiri",
+    "pregunta_idioma": "¿En qué idioma prefieres tu menú?",
+    "cambiar_idioma": "Cambiar idioma",
+    "badge_recomendado": "★ Favorito",
+    "badge_vegan": "Vegano",
+    "badge_gf": "Sin Gluten",
+    "badge_lf": "Sin Lactosa",
+    "footer_alergenos": "Infórmanos sobre cualquier alergia alimentaria",
+    "nota_hielo": "Todas las infusiones pueden servirse con hielo",
+    "nota_yaki": "Precio varía según el tipo de arroz",
+    "extra_titulo": "Extras opcionales",
+    "rice_white": "White Rice",
+    "rice_quinoa": "Rice & Quinoa",
+    "rice_yaki": "Yaki Onigiri"
+  },
+
+  "secciones": {
+    "onigiri": {
+      "titulo": "Onigiri",
+      "descripcion": "Bola de arroz japonés en forma de triángulo rellena de distintos manjares.",
+      "gluten_free": true
+    },
+    "postres": {
+      "titulo": "Postres",
+      "descripcion": ""
+    },
+    "lattes": {
+      "titulo": "Lattes",
+      "subtitulo_matcha": "Matcha",
+      "subtitulo_hojicha": "Hojicha",
+      "desc_matcha": "Té verde de alta calidad, rico en antioxidantes y vitaminas A, B2, C, D, E y K.",
+      "desc_hojicha": "Té verde TOSTADO al carbón. Sin cafeína, apto para niños y embarazadas."
+    },
+    "bowl_sets": {
+      "titulo": "Bowl Sets",
+      "descripcion": "La perfecta opción de un tiempo de comida completo y saludable.",
+      "gluten_free": true
+    },
+    "infusiones": {
+      "titulo": "Infusiones",
+      "descripcion": "Las infusiones son servidas en tetera. Ideal para compartir.",
+      "subtitulo_tradicionales": "Infusiones Tradicionales",
+      "desc_tradicionales": "Selección de tés que han estado más de 300 años en la cultura japonesa.",
+      "subtitulo_blends": "Blends",
+      "desc_blends": "Deliciosas mezclas de tés y varias flores, semillas y frutas de distintas regiones de Japón."
+    }
+  },
+
+  "onigiri": {
+    "tipos_arroz": {
+      "white_rice": {
+        "nombre": "White Rice",
+        "descripcion": "Arroz blanco 100% japonés."
+      },
+      "rice_quinoa": {
+        "nombre": "Rice & Quinoa",
+        "descripcion": "Arroz blanco 100% japonés mezclado con quinoa. Ideal para dietas bajas en glucosa."
+      },
+      "yaki": {
+        "nombre": "Yaki Onigiri",
+        "descripcion": "Arroz 100% japonés en tinta de soya a la plancha."
+      }
+    },
+    "rellenos": [
+      { "key": "tuna_mayo",     "nombre": "Tuna Mayo",                        "vegan": false, "precios": { "white": "$2.75", "quinoa": "$3.00", "yaki": "$3.25" } },
+      { "key": "cream_cheese",  "nombre": "Cream Cheese",                     "vegan": false, "precios": { "white": "$2.75", "quinoa": "$3.00", "yaki": "$3.25" } },
+      { "key": "salmon",        "nombre": "Salmón",                           "vegan": false, "precios": { "white": "$3.00", "quinoa": "$3.25", "yaki": "$3.50" } },
+      { "key": "salmon_cc",     "nombre": "Salmón & Cream Cheese",            "vegan": false, "precios": { "white": "$3.25", "quinoa": "$3.50", "yaki": "$3.75" } },
+      { "key": "vegan_cream",   "nombre": "Vegan Cream",                      "vegan": true,  "precios": { "white": "$3.00", "quinoa": "$3.25", "yaki": "$3.50" } },
+      { "key": "wakame",        "nombre": "Wakame",                           "vegan": true,  "descripcion": "Alga, ajonjolí y aceite de ajonjolí", "precios": { "white": "$3.00", "quinoa": "$3.25", "yaki": "$3.50" } },
+      { "key": "hongos",        "nombre": "Hongos Salteados",                 "vegan": true,  "precios": { "white": "$3.00", "quinoa": "$3.25", "yaki": "$3.50" } },
+      { "key": "hongos_cc",     "nombre": "Hongos Salteados & Cream Cheese",  "vegan": false, "precios": { "white": "$3.25", "quinoa": "$3.50", "yaki": "$3.75" } },
+      { "key": "camote_cc",     "nombre": "Camote & Cream Cheese",            "vegan": false, "precios": { "white": "$3.25", "quinoa": "$3.50", "yaki": null   } },
+      { "key": "camote_vegan",  "nombre": "Camote & Vegan Cream",             "vegan": true,  "precios": { "white": "$3.25", "quinoa": "$3.50", "yaki": null   } },
+      { "key": "cebollin",      "nombre": "Cebollín",                         "vegan": true,  "precios": { "white": "$3.00", "quinoa": "$3.25", "yaki": "$3.50" } },
+      { "key": "cebollin_cc",   "nombre": "Cebollín & Cream Cheese",          "vegan": false, "precios": { "white": "$3.25", "quinoa": "$3.50", "yaki": "$3.75" } },
+      { "key": "cebollin_vegan","nombre": "Cebollín & Vegan Cream",           "vegan": true,  "precios": { "white": "$3.25", "quinoa": "$3.50", "yaki": "$3.25" } }
+    ],
+    "extras": [
+      { "nombre": "Salsa Creamy Miso",        "precio": "+$2.00" },
+      { "nombre": "Aceite de Ajonjolí Tostado", "precio": "+$2.00" }
+    ]
+  },
+
+  "postres": [
+    {
+      "key": "mochi_couple",
+      "nombre": "Mochi Couple",
+      "precio": "$6.00",
+      "descripcion": "Pareja de confituras de arroz dulce, rellenos de crema sin lactosa de sabores variados. (Preguntar por los rellenos del día)",
+      "lactose_free": true,
+      "gluten_free": true
+    },
+    {
+      "key": "kinako_dango",
+      "nombre": "Kinako Dango",
+      "precio": "$6.00",
+      "descripcion": "Bolitas de arroz de mochi con salsa dulce mitarashi a base de panela y kinako (polvo fino de semilla de soya tostada).",
+      "gluten_free": true
+    },
+    {
+      "key": "matcha_terrine",
+      "nombre": "Matcha Terrine",
+      "precio": "$3.50",
+      "descripcion": "Dos barritas de mousse a base de chocolate blanco y crema de coco.",
+      "gluten_free": true
+    },
+    {
+      "key": "hojicha_terrine",
+      "nombre": "Hojicha Terrine",
+      "precio": "$3.50",
+      "descripcion": "Dos barritas de mousse a base de chocolate blanco y crema de coco.",
+      "gluten_free": true
+    },
+    {
+      "key": "matcha_loaf",
+      "nombre": "Matcha Loaf",
+      "precio": "$6.00",
+      "descripcion": "Suave torta de yogurt acompañada con crema spread de matcha.",
+      "gluten_free": true
+    },
+    {
+      "key": "matcha_panna_cotta",
+      "nombre": "Matcha Panna Cotta",
+      "precio": "$4.50",
+      "descripcion": "A base de leche de almendra con matcha y topping de crema de semilla de marañón.",
+      "lactose_free": true,
+      "gluten_free": true
+    },
+    {
+      "key": "hojicha_panna_cotta",
+      "nombre": "Hojicha Panna Cotta",
+      "precio": "$4.50",
+      "descripcion": "A base de leche de almendra con hojicha y topping de crema de semilla de marañón.",
+      "lactose_free": true,
+      "gluten_free": true
+    },
+    {
+      "key": "rose_sakura_panna_cotta",
+      "nombre": "Rose Sakura Panna Cotta",
+      "precio": "$5.50",
+      "descripcion": "A base de leche de almendra y agua de rosas, con topping de pétalos de sakura pulverizada y crema de semilla de marañón.",
+      "lactose_free": true,
+      "gluten_free": true
+    },
+    {
+      "key": "bear_cookie",
+      "nombre": "Bear Cookie Couple",
+      "precio": "$3.00",
+      "descripcion": "Dos galletas a base de harina de arroz, sabor cacao y hojicha.",
+      "gluten_free": true
+    },
+    {
+      "key": "matcha_cheesecake",
+      "nombre": "Matcha Cheesecake GF",
+      "precio": "$4.75",
+      "descripcion": "Cremoso cheesecake de matcha con base crujiente gluten free.",
+      "gluten_free": true
+    },
+    {
+      "key": "black_sesame_cheesecake",
+      "nombre": "Black Sesame Cheesecake GF",
+      "precio": "$4.75",
+      "descripcion": "Cremoso cheesecake de sésamo negro de Kyoto con base crujiente gluten free.",
+      "gluten_free": true
+    }
+  ],
+
+  "lattes": {
+    "matcha": [
+      {
+        "key": "traditional_matcha",
+        "nombre": "Traditional Matcha",
+        "descripcion": "Servida en tazón tradicional y elaborada con mezclador de bambú. SIN LECHE O AZÚCAR.",
+        "precios": { "hot": "$5.00", "cold": "$5.50" }
+      },
+      {
+        "key": "classic_matcha_latte",
+        "nombre": "Classic Matcha Latte",
+        "descripcion": "Matcha tradicional vertido sobre leche de tu elección.",
+        "precios": { "hot_8oz": "$5.50", "cold_12oz": "$6.00" }
+      },
+      {
+        "key": "matcha_latte",
+        "nombre": "Matcha Latte",
+        "descripcion": "",
+        "precios": { "hot_8oz": "$5.00", "cold_12oz": "$5.50" }
+      },
+      {
+        "key": "matcha_latte_double",
+        "nombre": "Matcha Latte Double Shot",
+        "descripcion": "",
+        "precios": { "hot_8oz": "$6.00", "cold_12oz": "$6.50" }
+      },
+      {
+        "key": "matcha_strawberry",
+        "nombre": "Matcha Strawberry Latte",
+        "descripcion": "",
+        "precios": { "hot_8oz": "$6.00", "cold_12oz": "$6.50" }
+      }
+    ],
+    "hojicha": [
+      {
+        "key": "hojicha_puro",
+        "nombre": "Hojicha Puro",
+        "descripcion": "Servida en tazón tradicional y elaborada con mezclador de bambú. SIN LECHE O AZÚCAR.",
+        "precios": { "hot_8oz": "$5.00", "cold_12oz": "$5.50" }
+      },
+      {
+        "key": "classic_hojicha_latte",
+        "nombre": "Classic Hojicha Latte",
+        "descripcion": "Hojicha puro vertido sobre leche de tu elección.",
+        "precios": { "hot_8oz": "$5.50", "cold_12oz": "$6.00" }
+      },
+      {
+        "key": "hojicha_latte",
+        "nombre": "Hojicha Latte",
+        "descripcion": "",
+        "precios": { "hot_8oz": "$5.00", "cold_12oz": "$5.50" }
+      },
+      {
+        "key": "hojicha_cacao",
+        "nombre": "Hojicha Cacao Latte",
+        "descripcion": "",
+        "precios": { "hot_8oz": "$5.50", "cold_12oz": "$6.00" }
+      },
+      {
+        "key": "hojicha_salted_caramel",
+        "nombre": "Hojicha Salted Caramel",
+        "descripcion": "",
+        "precios": { "hot_8oz": "$5.50", "cold_12oz": "$6.00" }
+      }
+    ],
+    "extras": [
+      { "nombre": "Cubo de hielo de Gyokuro",  "precio": "+$0.35" },
+      { "nombre": "Cubo de hielo de Hojicha",  "precio": "+$0.35" }
+    ]
+  },
+
+  "bowl_sets": [
+    {
+      "key": "salmon_bowl",
+      "nombre": "Salmon Bowl Set",
+      "precio": "$17",
+      "descripcion": "Cama de arroz 100% japonés (150 gr) con lascas de salmón salteado en aceite de sésamo, hongos salteados, chile morrón asado y huevo melcochado con topping de sésamo y ajo.",
+      "incluye": [
+        "1 sopa miso con hongos",
+        "1 té verde helado (opción coldbrews del día)",
+        "1 dulce de matcha"
+      ],
+      "nota": "Opción quinoa & arroz disponible"
+    },
+    {
+      "key": "veggie_bowl",
+      "nombre": "Veggie Bowl Set",
+      "precio": "$15",
+      "descripcion": "Cama de arroz 100% japonés (150 gr) con vegetales salteados en salsa de ostras, flores de zanahorias al vapor, rollitos de huevo tamagoyaki, aguacate y sésamo.",
+      "incluye": [
+        "1 sopa miso con hongos",
+        "1 té verde helado (opción coldbrews del día)",
+        "1 dulce de matcha"
+      ],
+      "nota": "Opción quinoa & arroz disponible"
+    },
+    {
+      "key": "pesca_del_dia_bowl",
+      "nombre": "Pesca del Día Bowl Set",
+      "precio": "$17",
+      "descripcion": "Cama de arroz 100% japonés (150 gr) con lascas de róbalo salteado con yuzu, hongos salteados, chile morrón asado y huevo melcochado con topping de sésamo y ajo.",
+      "incluye": [
+        "1 sopa miso con hongos",
+        "1 té verde helado (opción coldbrews del día)",
+        "1 dulce de matcha"
+      ],
+      "nota": "Opción quinoa & arroz disponible"
+    },
+    {
+      "key": "shrimp_tempura_bowl",
+      "nombre": "Shrimp Tempura Bowl Set",
+      "precio": "$17",
+      "descripcion": "Cama de arroz 100% japonés (150 gr) con camarones tempura y vegetales salteados.",
+      "incluye": [
+        "1 sopa miso con hongos",
+        "1 té verde helado (opción coldbrews del día)",
+        "1 dulce de matcha"
+      ],
+      "nota": "Opción quinoa & arroz disponible"
+    }
+  ],
+
+  "infusiones": {
+    "tradicionales": [
+      {
+        "key": "sencha_teapot",
+        "nombre": "Sencha Teapot",
+        "precio": "$6.50",
+        "descripcion": "El té verde más popular en Japón. Sabor fresco y delicado amargor."
+      },
+      {
+        "key": "hojicha_teapot",
+        "nombre": "Hojicha Teapot",
+        "precio": "$6.50",
+        "descripcion": "Té verde tostado. Aroma exquisito y sabor fragante. SIN CAFEÍNA, recomendado para niños y embarazadas."
+      },
+      {
+        "key": "genmaicha_teapot",
+        "nombre": "Genmaicha Teapot",
+        "precio": "$6.50",
+        "descripcion": "Exquisito blend de arroz tostado y sencha. Excelente combinación para comidas fritas o grasosas."
+      },
+      {
+        "key": "gyokuro_teapot",
+        "nombre": "Gyokuro Teapot",
+        "precio": "$7.00",
+        "descripcion": "Té de hojas finas crecidas en sombra. Sabor único y suave. La variedad más fina de té verde de infusión en Japón."
+      }
+    ],
+    "blends": [
+      {
+        "key": "green_bouquet",
+        "nombre": "Green Bouquet Teapot",
+        "precio": "$7.00",
+        "ingredientes": "Gyokuro, Rosa Roja & Manzanilla",
+        "descripcion": "Antioxidante, desintoxicante, relajante. Estimula la circulación. Ayuda con insomnio, anemia y estado de ánimo."
+      },
+      {
+        "key": "blue_bouquet",
+        "nombre": "Blue Bouquet Teapot",
+        "precio": "$7.00",
+        "ingredientes": "Gyokuro, Rosa Roja & Butterfly Pea",
+        "descripcion": "Antioxidante, desintoxicante, relajante. Ayuda con la fatiga visual. Estimula el colágeno y elastina de la piel."
+      },
+      {
+        "key": "red_bouquet",
+        "nombre": "Red Bouquet Teapot",
+        "precio": "$7.00",
+        "ingredientes": "Gyokuro, Manzanilla & Hibiscus",
+        "descripcion": "Antioxidante, reduce inflamaciones. Excelente para las resacas y desvelos."
+      },
+      {
+        "key": "orange_bouquet",
+        "nombre": "Orange Bouquet Teapot",
+        "precio": "$7.00",
+        "ingredientes": "Gyokuro, Rosa Roja, Rooibos & Ralladura de Limón",
+        "descripcion": "Antioxidante, relajante. Ayuda con piel seca, envejecimiento y estreñimiento."
+      },
+      {
+        "key": "blends_temporada",
+        "nombre": "Blends de Temporada",
+        "precio": "$7.00",
+        "descripcion": "Exquisitos blends de té con frutas y especias de la estación de Japón. (Preguntar por los sabores de temporada)"
+      }
+    ]
+  }
+}
